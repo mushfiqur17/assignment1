@@ -1,0 +1,1 @@
+I want to create a testimonials strip and a newsletter signup, both inside a single section. Please provide the HTML and CSS files using basic HTML and CSS only. Here are some pictures of the other sections, please try to match their color scheme.
