@@ -1,0 +1,144 @@
+.section3 {
+    padding: 60px 60px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.section3_heading {
+    font-size: 36px;
+    font-weight: 800;
+    color: #111111;
+    margin-bottom: 12px;
+}
+
+.section3_subheading {
+    font-size: 15px;
+    font-weight: 400;
+    color: #777777;
+    margin-bottom: 48px;
+}
+
+.section3_grid {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 24px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.pricing_card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    flex: 1;
+    max-width: 300px;
+    padding: 28px;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    background-color: #fbfbfc;
+}
+
+.pricing_card--featured {
+    background-color: #0d1424;
+    border-color: #0d1424;
+}
+
+.pricing_card_plan {
+    font-size: 13px;
+    font-weight: 600;
+    color: #777777;
+    letter-spacing: 0.5px;
+}
+
+.pricing_card--featured .pricing_card_plan {
+    color: #6f8dff;
+}
+
+.pricing_card_price {
+    font-size: 34px;
+    font-weight: 800;
+    color: #111111;
+    margin-top: 10px;
+}
+
+.pricing_card--featured .pricing_card_price {
+    color: #ffffff;
+}
+
+.pricing_card_per {
+    font-size: 13px;
+    font-weight: 400;
+    color: #999999;
+    margin-bottom: 20px;
+}
+
+.pricing_card--featured .pricing_card_per {
+    color: #a9b2c8;
+}
+
+.pricing_card_features {
+    list-style: none;
+    padding: 20px 0;
+    margin-bottom: 24px;
+    width: 100%;
+    border-top: 1px solid #e5e5e5;
+}
+
+.pricing_card--featured .pricing_card_features {
+    border-top: 1px solid #2a3350;
+}
+
+.pricing_card_features li {
+    position: relative;
+    padding-left: 18px;
+    margin-bottom: 14px;
+    font-size: 14px;
+    color: #444444;
+}
+
+.pricing_card--featured .pricing_card_features li {
+    color: #d3d8e8;
+}
+
+.pricing_card_features li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #3b4cf6;
+}
+
+.pricing_card--featured .pricing_card_features li::before {
+    color: #6f8dff;
+}
+
+.pricing_card_cta {
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 12px 0;
+    border-radius: 8px;
+    margin-top: auto;
+}
+
+.pricing_card_cta--outline {
+    color: #3b4cf6;
+    border: 1px solid #3b4cf6;
+    background-color: transparent;
+}
+
+.pricing_card--featured .pricing_card_cta--outline {
+    color: #111111;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+}
+
+.pricing_card_cta--solid {
+    color: #ffffff;
+    background-color: #3b4cf6;
+    border: 1px solid #3b4cf6;
+}
+
+
