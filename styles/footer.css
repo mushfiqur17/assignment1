@@ -1,0 +1,31 @@
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 60px;
+    background-color: #0d1424;
+}
+
+.footer_copyright {
+    font-size: 14px;
+    font-weight: 400;
+    color: lightgrey;
+}
+
+.footer_links {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    list-style: none;
+}
+
+.footer_links a {
+    font-size: 14px;
+    font-weight: 400;
+    color: lightslategray;
+}
+
+.footer_links a:hover {
+    color: white;
+}
